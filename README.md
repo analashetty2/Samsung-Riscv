@@ -89,7 +89,74 @@ riscv64-unknown-elf-objdump -d multiply.o | less
 spike -d pk multiply.o
 ```
 
-
-  
 </details>
 
+<details>
+<summary> Task 3 </summary>
+
+## 15 Unique RISC-V Instructions and thier 32- Bit encodings:
+
+## RISC-V instructions and thier Encodings
+
+addi sp, sp, -32
+Type:I-Type
+32-bit encoding:11111111100000010000000100010011
+
+li a5, 10
+Type:I-Type
+32-bit encoding:* 00000000101000000000011110010011
+
+lui a0, 0x2b
+Type:U-type
+32-bit encoding:000000000000000000101010110111
+
+sw a5, 8(sp)
+Type:I-Type
+32-bit encoding:00000000000010010011110100011
+
+addi a0, a0, -752
+Type:I-type
+32-bit encoding:11001001000001010000010100010011
+
+li a5, 20
+Type:I-Type
+32-bit encoding:00000001010000000000011110010011
+
+sd ra, 24(sp)
+Type:S-Type
+32-bit encoding:0000000110001001100001010001
+
+sw a5, 12(sp)
+Type:S-Type
+32-bit encoding:00000000100010010011110100011
+
+jal ra, 10588 <puts>
+Type:J-Type
+32-bit encoding:00000010101111100100000011101111
+
+addi a2, sp, 12
+Type:I-Type
+32-bit encoding:00000000110000010000011000010011
+
+ addi a1, sp, 8
+ Type:I-Type
+ 32-bit encoding:00000000100000010000010110010011
+
+ jal ra, 10598 <scanf>
+ Type:J-Type
+ 32-bit encoding:00000010101111110110000011101111
+
+ lw a1, 12(sp)
+ Type:I-Type
+ 32-bit encoding:00000000110000010010010110000011
+
+ lw a0,8(sp)
+ Type:I-Type
+ 32-bit encoding:00000000100000010010010100000011
+
+ jal ra, 101e8 <__muldi3>
+ Type:J-Type
+ 32-bit encoding:00000010100000000100000011101111
+
+ </details>
+ 
