@@ -1,4 +1,11 @@
-#RISC-V INTERNSHIP PROGRAM
+# RISC-V Talent development Program
+
+## About Me
+Name: ANALA SHETTY
+
+College: Sahyadri College Of Engineering and Management
+
+Email ID: anala.ec23@sahyadri.edu.in
 
 This project is based on the RISC-V internship program by Samsung.
 ***
