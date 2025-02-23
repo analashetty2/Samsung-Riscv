@@ -189,4 +189,40 @@ Type:I-Type
  32-bit encoding:00000010100000000100000011101111
 
  </details>
+ <details>
+  <summary>Task 4 - Functional Simulation of RISC-V Core</summary>
+  
+  ### Step 1: Create a directory
+
+  ### Step 2: Create the verilog files using touch command
+
+  ### Step 3: locate the Files created and paste the code from <a href="https://github.com/vinayrayapati/rv32i/blob/main/?> repo</a>
+  Get the Verilog netlist from <a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v">RISC-V Core Verilog Netlist.</a>
+  Get the testbench from<a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i_tb.v">Testbench for RISC-V Core.
+
+  ### Step 4: Compile the Files
+
+  ### Step 5: Run the Files
+
+  ### Step 6: Open the Files in GTKWave 
+
+  ### Step 7: Add signals to GTKWave
+</details>
+<details>
+  <summary> Task 5 - Project Overview</summary>
+
+  ## RISC-V Based Temperature and Humidity Monitor
+
+  A simple project using RISC-V board that detects distance through ultrasonic sensor and indicates it through led and buzzer.
+
+### Components Required
+
+- RISC-V Board (e.g., sipeed Longan Nano / HiFive1)
+- ultrasonic sensor
+- led
+- buzzer
+- Jumper Wires
+
+</details>
+  
  
